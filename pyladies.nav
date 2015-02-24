@@ -1,0 +1,49 @@
+\beamer@endinputifotherversion {3.33pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\sectionentry {1}{section 1}{2}{section 1}{0}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\slideentry {1}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{sub a}}\headcommand {\beamer@subsectionpages {2}{2}}
+\headcommand {\slideentry {1}{1}{1}{3/3}{sub a}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\slideentry {1}{1}{2}{4/6}{sub a}{0}}
+\headcommand {\beamer@framepages {4}{6}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{7}{sub b}}\headcommand {\beamer@subsectionpages {3}{6}}
+\headcommand {\slideentry {1}{2}{1}{7/7}{sub b}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{2}{2}{8/10}{sub b}{0}}
+\headcommand {\beamer@framepages {8}{10}}
+\headcommand {\sectionentry {2}{section 2}{11}{section 2}{0}}
+\headcommand {\beamer@sectionpages {2}{10}}
+\headcommand {\beamer@subsectionpages {7}{10}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{11}{sub a}}\headcommand {\beamer@subsectionpages {11}{10}}
+\headcommand {\slideentry {2}{1}{1}{11/20}{sub a}{0}}
+\headcommand {\beamer@framepages {11}{20}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{21}{sub b}}\headcommand {\beamer@subsectionpages {11}{20}}
+\headcommand {\slideentry {2}{2}{1}{21/30}{sub b}{0}}
+\headcommand {\beamer@framepages {21}{30}}
+\headcommand {\sectionentry {3}{section 3}{31}{section 3}{0}}
+\headcommand {\beamer@sectionpages {11}{30}}
+\headcommand {\beamer@subsectionpages {21}{30}}
+\headcommand {\slideentry {3}{0}{2}{31/31}{}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{32}{sub a}}\headcommand {\beamer@subsectionpages {31}{31}}
+\headcommand {\slideentry {3}{1}{1}{32/32}{sub a}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {3}{1}{2}{33/35}{sub a}{0}}
+\headcommand {\beamer@framepages {33}{35}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{36}{sub b}}\headcommand {\beamer@subsectionpages {32}{35}}
+\headcommand {\slideentry {3}{2}{1}{36/36}{sub b}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\slideentry {3}{2}{2}{37/39}{sub b}{0}}
+\headcommand {\beamer@framepages {37}{39}}
+\headcommand {\slideentry {3}{2}{3}{40/40}{sub b}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\beamer@partpages {1}{40}}
+\headcommand {\beamer@subsectionpages {36}{40}}
+\headcommand {\beamer@sectionpages {31}{40}}
+\headcommand {\beamer@documentpages {40}}
+\headcommand {\def \inserttotalframenumber {14}}
