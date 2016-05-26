@@ -1,0 +1,11 @@
+Come join us for a talk about getting started in open source software, followed by a hacking session where we'll contribute to one of Python’s most beloved packages, Matplotlib!
+
+The talk will focus on demystifying open source communities, with tips for choosing a newcomer-friendly project, navigating its community, and starting to contribute.
+
+For the hacking session, we’ll focus on [MEP12](http://matplotlib.org/devel/MEP/MEP12.html).  It’s a set of guidelines for 'cleaning up' examples, and it’s really about improving educational content by making it easier to learn from the examples.  Our goals will be to build confidence (and your Github profile!) and of course help out Matplotlib.  PyLadies of ALL ability levels are encouraged to join!
+
+If you like to prep before the event, here are some things you can do:
+1. Sign up for a Github account.
+2. Install Git.  If you’re on Mac or Windows and prefer GUI to command line, SourceTree is great.
+3. Follow the first two or three sections [here](http://matplotlib.org/devel/gitwash/git_development.html).
+4. (optional)  The priority for this event is to interact with an OSS community, so we’ll guide you through the Git parts without spending too much time on them.  If you want to practice Git so you can flex those muscles at the event, try [this](http://pcottle.github.io/learnGitBranching/).

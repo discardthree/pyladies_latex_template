@@ -1,0 +1,43 @@
+Range determination for data with NaNs
+
+
+
+
+I notice that this code will plot with warnings:
+```python
+from matplotlib import pyplot as plt
+from numpy import NaN
+plt.hist([1, NaN, 4], range=[0,5])
+```
+
+```
+/Users/trish/anaconda/lib/python2.7/site-packages/numpy/lib/function_base.py:229: RuntimeWarning: invalid value encountered in greater_equal
+  keep = (tmp_a >= mn)
+/Users/trish/anaconda/lib/python2.7/site-packages/numpy/lib/function_base.py:230: RuntimeWarning: invalid value encountered in less_equal
+  keep &= (tmp_a <= mx)
+```
+
+Whereas this code ends up with an error because of how the range is determined:
+```python
+from matplotlib import pyplot as plt
+from numpy import NaN
+plt.hist([1, NaN, 4])
+```
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/Users/trish/anaconda/lib/python2.7/site-packages/matplotlib/pyplot.py", line 2958, in hist
+    stacked=stacked, data=data, **kwargs)
+  File "/Users/trish/anaconda/lib/python2.7/site-packages/matplotlib/__init__.py", line 1812, in inner
+    return func(ax, *args, **kwargs)
+  File "/Users/trish/anaconda/lib/python2.7/site-packages/matplotlib/axes/_axes.py", line 6010, in hist
+    m, bins = np.histogram(x[i], bins, weights=w[i], **hist_kwargs)
+  File "/Users/trish/anaconda/lib/python2.7/site-packages/numpy/lib/function_base.py", line 176, in histogram
+    'max must be larger than min in range parameter.')
+AttributeError: max must be larger than min in range parameter.
+```
+
+If we're willing to forgive NaNs in the first case and just plot while ignoring them, wouldn't it also make sense to ignore them in the range computation?  Or if that's a bad idea, maybe we could return an error that makes it clear to the user that the problem was NaNs in the data?
+
+The friend who showed this to me was stumped by the error message because his data was huge and he had no idea it contained NaNs.  When he saw that AttributeError he just thought "But I'm letting matplotlib decide the range, how can it be wrong?"
